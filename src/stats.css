@@ -1,0 +1,54 @@
+.stats-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-box {
+  flex-shrink: 1;
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: 0px 3px 3px 0px;
+}
+
+.stat {
+  width: 100%;
+  font-size: 1.35rem;
+  height: 35px;
+}
+
+.stat-label {
+  width: 100%;
+  font-size: 0.75rem;
+  flex-grow: 1;
+  height: 25px;
+}
+
+.distribution-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.distribution-row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.distribution-label {
+  width: 10%;
+}
+
+.distribution-bar {
+  width: 90%;
+  height: 25px;
+}
